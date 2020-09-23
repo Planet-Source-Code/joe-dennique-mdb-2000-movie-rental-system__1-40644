@@ -1,0 +1,175 @@
+[Root]
+Most Recent Package=MDB_2002 Setup Package 1
+
+
+[Package|MDB_2002 Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Documents\My Software\Movie Database\package
+
+[Package|MDB_2002 Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|MDB_2002 Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|MDB_2002 Setup Package 1|Files Found]
+MovieDB.mdb=C:\My Documents\My Software\Movie Database\MovieDB.mdb
+
+[Package|MDB_2002 Setup Package 1|Files Released]
+
+[Package|MDB_2002 Setup Package 1|Missing Dependency Information]
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=
+
+[Package|MDB_2002 Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\msmask32.ocx=
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=
+C:\WINDOWS\SYSTEM\Mscomct2.ocx=
+
+[Package|MDB_2002 Setup Package 1|Files Added]
+c:\my documents\my software\movie database\moviedb.mdb=
+
+[Package|MDB_2002 Setup Package 1|Files Removed]
+
+[Package|MDB_2002 Setup Package 1|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\My Documents\My Software\Movie Database\MDB.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\Mscomct2.ocx=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM\msmask32.ocx=Yes
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=Yes
+C:\WINDOWS\SYSTEM\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\My Documents\My Software\Movie Database\MovieDB.mdb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\WINDOWS\SYSTEM\MSJET40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJTER40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJINT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWSTR10.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWDAT10.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRD2X40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRD3X40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSREPL40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJTES40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+
+[Package|MDB_2002 Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|MDB_2002 Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|MDB_2002 Setup Package 1|Install Locations]
+C:\My Software\MDB\MDB.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINNT\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\My Software\MDB\MovieDB.mdb=$(AppPath)
+C:\My Documents\My Software\Movie Database\MDB.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\msmask32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\My Documents\My Software\Movie Database\MovieDB.mdb=$(AppPath)
+C:\WINDOWS\SYSTEM\MSJET40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWSTR10.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWDAT10.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD3X40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTES40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+
+[Package|MDB_2002 Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\My Software\MDB\MDB.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\My Software\MDB\MovieDB.mdb=No
+C:\My Documents\My Software\Movie Database\MDB.exe=No
+C:\My Documents\My Software\Movie Database\MovieDB.mdb=No
+
+[Package|MDB_2002 Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Movie DataBase 2002
+
+[Package|MDB_2002 Setup Package 1|IconGroups]
+Group0=Movie DataBase 2002
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|MDB_2002 Setup Package 1|Movie DataBase 2002]
+Icon1=MDB.exe
+Title1=Movie DataBase 2002
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|MDB_2002 Setup Package 1|Package]
+PackageFolder=C:\My Documents\My Software\Movie Database\package
+ProjectFolder=C:\My Documents\My Software\Movie Database
+ServerSideCab=
+File1=C:\My Documents\My Software\Movie Database\package\setup.exe
+File2=C:\My Documents\My Software\Movie Database\package\Setup.Lst
+File3=C:\My Documents\My Software\Movie Database\package\MDB.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
